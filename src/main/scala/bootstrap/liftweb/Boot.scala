@@ -22,13 +22,14 @@ import code.rest.IssuesService
  */
 class Boot extends Logger {
   def boot {
+    println("boot!")
     // where to search snippet
     LiftRules.addToPackages("code")
 
     IssuesService.init()
-    ClientCache.startClient()
-
-    LiftRules.statelessDispatch.append(Clients)
+    Clients.init
+//    ClientCache.startClient()
+//    LiftRules.statelessDispatch.append(Clients)
 
     val canManage_? = If(
       // always true means everybody can manage

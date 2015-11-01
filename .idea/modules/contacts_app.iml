@@ -16,7 +16,8 @@
       <sourceFolder url="file://$USER_HOME$/personal_config_bin_files/workspace/lift-lift_26_sbt-d71cccf/scala_211/contacts_app/src/main/webapp" type="java-test-resource" />
       <sourceFolder url="file://$USER_HOME$/personal_config_bin_files/workspace/lift-lift_26_sbt-d71cccf/scala_211/contacts_app/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$USER_HOME$/personal_config_bin_files/workspace/lift-lift_26_sbt-d71cccf/scala_211/contacts_app/target/scala-2.11/resource_managed/test" type="java-test-resource" />
-      <excludeFolder url="file://$USER_HOME$/personal_config_bin_files/workspace/lift-lift_26_sbt-d71cccf/scala_211/contacts_app/target" />
+      <excludeFolder url="file://$USER_HOME$/personal_config_bin_files/workspace/lift-lift_26_sbt-d71cccf/scala_211/contacts_app/target/resolution-cache" />
+      <excludeFolder url="file://$USER_HOME$/personal_config_bin_files/workspace/lift-lift_26_sbt-d71cccf/scala_211/contacts_app/target/streams" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
